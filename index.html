@@ -24,16 +24,18 @@
         color: #e60073;
       }
       button {
-        text-align: center;
         background-color: #e60073;
         color: #fff;
         border: none;
-        padding: 10px 20px;
-        border-radius: 5px;
+        padding: 20px 20px;
+        border-radius: 7px;
         cursor: pointer;
-        display: flex; justify-content: center; align-items: center;
-</div>
-
+      }
+      .center {
+         display: flex; 
+         justify-content: center;
+         align-items: center;
+         text-align: center;
       }
     </style>
   </head>
@@ -41,6 +43,7 @@
     <h1>Untuk Kiyo Tersayang</h1>
     <p>Aku cinta Kiyo yang manis, kawaii, dan lucu</p>
     <p><em>Hanya ingin kamu tahu bahwa kamu selalu berada di hatiku.</em></p>
+    <div class="center">
     <button onclick="kirimPesan()">Klik sini Ayangg</button>
     <script>
       function kirimPesan() {
@@ -48,5 +51,6 @@
         alert(pesan);
       }
     </script>
+    </div>
   </body>
 </html>
